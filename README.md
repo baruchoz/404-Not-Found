@@ -42,10 +42,13 @@
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
 - Where can I see your demo?
-
+  > [View](https://incredible-biscuit-d26d8e.netlify.app/)
 - What was your experience?
+  > While simple, this challenge took me longer than expected and was a refreshing experience.
 - What have you learned/improved?
+  > I learned that it is important to map out and plan your approach before coding. I starte without a plan initially, then realized I can do this all using flexbox. It was a great way to practice flexbox.
 - Your wisdom? :)
+  > Don't assume because something is simple that it is easy. Never give up.
 
 ### Built With
 
