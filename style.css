@@ -1,0 +1,165 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Space mono";
+  position: relative;
+  width: 1440px;
+  background: #ffffff;
+  box-shadow: 0px 2px 24px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  margin: auto;
+  color: #333333;
+  line-height: 1;
+}
+
+.container {
+  min-height: 100vh;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  width: 100%;
+  align-self: flex-start;
+  margin: 36px 0px 36px 0px;
+}
+
+.header-text {
+  font-family: "Inconsolata", monospace;
+  font-size: 2.4rem;
+  line-height: 25px;
+  letter-spacing: -0.08em;
+  text-transform: uppercase;
+}
+
+.main-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7.2rem;
+  font-style: normal;
+}
+
+.item {
+  width: 45%;
+  height: 45%;
+}
+
+.img {
+  width: 539px;
+  height: 447px;
+}
+
+.content-right {
+  margin-top: 96px;
+}
+
+.content-right h1 {
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 95px;
+  letter-spacing: -0.035em;
+  margin-bottom: 3.6rem;
+}
+.content-right p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: -0.035em;
+  margin-bottom: 6.4rem;
+  width: 38rem;
+}
+
+.btn {
+  border: none;
+  background-color: #333333;
+  color: #ffffff;
+  width: 216px;
+  height: 68px;
+  margin-bottom: 96px;
+}
+
+.btn-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.035em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+footer {
+  height: 2.4rem;
+  font-family: "Montserrat";
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #bdbdbd;
+  text-align: center;
+}
+
+.username {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  body {
+    width: 375px;
+  }
+
+  .container {
+    width: 90%;
+    align-items: center;
+  }
+
+  .header {
+    margin: 12px 0px 12px 0px;
+  }
+
+  .main-content {
+    margin-top: 48px;
+  }
+
+  .item {
+    width: 100%;
+    height: 100%;
+  }
+
+  .img {
+    width: 320px;
+    height: 320px;
+    padding: 0px;
+    margin-left: 10px;
+  }
+
+  .content-right {
+    margin-top: 0px;
+  }
+
+  .content-right h1 {
+    font-size: 4.8rem;
+    line-height: 71px;
+  }
+
+  .content-right p {
+    font-size: 18px;
+    line-height: 27px;
+    width: 32rem;
+  }
+}
