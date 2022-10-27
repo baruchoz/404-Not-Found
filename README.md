@@ -36,7 +36,8 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](/img/Screen%20Shot%20Desktop.png)
+![screenshot](/img/Screen%20Shot%20Mobile.png)
 
 Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
 
@@ -67,6 +68,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://www.baruchrotbart.com/)
-- GitHub [@your-username](https://github.com/baruchoz)
-- Twitter [@your-twitter](https://twitter.com/baruch_rotbart)
+- Website [www.baruchrotbart.com](https://www.baruchrotbart.com/)
+- GitHub [@baruchoz](https://github.com/baruchoz)
+- Twitter [@baruch_rotbart](https://twitter.com/baruch_rotbart)
